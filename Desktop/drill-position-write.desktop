@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Drill position
+Comment=EXPERIMENTAL VERSION
+Exec=bash /home/pi/drill-position/launch_writer.sh
+Icon=/home/pi/drill-position/simpledrill.png
+Path=/home/pi/drill-position
+Terminal=true
+StartupNotify=false
+Name[en_US]=drill-position-write

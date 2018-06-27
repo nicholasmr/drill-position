@@ -1,0 +1,23 @@
+install:
+----------
+python-qt4
+python-redis
+python-pygraph
+
+move Desktop/* laucher files to the ~/Desktop folder
+
+autostart:
+----------
+the laucher files call the lauche_*.sh scripts. Therefore, simply place the command
+
+        @xset s noblank 
+        @xset s off 
+        @xset -dpms
+
+        @bash /home/pi/drill-position/launch_reader.sh &;
+        @chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --disable-restore-session-state --window-position=0,0 --window-size=1100,1000 http://10.2.3.8/infoscreen.html &;
+
+in the autostart file:
+        ~/.config/lxsession/LXDE-pi/autostart
+
+

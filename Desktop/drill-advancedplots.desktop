@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Drill advanced plots
+Comment=EXPERIMENTAL VERSION
+Exec=bash /home/pi/drill-position/launch_advancedplots.sh
+Icon=/home/pi/drill-position/simpledrill.png
+Path=/home/pi/drill-position
+Terminal=true
+StartupNotify=false
+Name[en_US]=drill-advancedplots
